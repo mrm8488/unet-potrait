@@ -1,0 +1,82 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4em;
+}
+html {
+  box-sizing: border-box;
+  padding: 8px;
+}
+#statusDiv {
+  color: green;
+}
+video,
+canvas {
+  background-color: #ccc;
+}
+body {
+  font-family: -apple-system, Arial, sans-serif;
+}
+#webcamElement {
+  display: none;
+  max-width: 224px;
+}
+.example {
+  width: 224px;
+  margin: 2px;
+}
+#container {
+  position: relative;
+}
+#examples {
+  margin: 8px;
+  width: 256px;
+}
+#videoexamples {
+}
+#imageexamples > img {
+  cursor: pointer;
+  width: 64px;
+}
+button {
+  padding: 4px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+}
+#elements {
+  position: absolute;
+  top: 0;
+  left: 256px;
+  margin: 8px;
+}
+
+.videolink {
+  display: block;
+}
+#canvasElement2 {
+  display: none;
+}
+#canvasElement3 {
+  background: green url(office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#result {
+  width: 224px;
+  height: 224px;
+  display: inline-block;
+}
+#fpsdiv {
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: yellow;
+  font-size: 11px;
+  font-weight: bold;
+}
+canvas {
+  margin: 0;
+}
