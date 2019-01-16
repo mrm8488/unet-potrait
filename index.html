@@ -252,7 +252,7 @@ async function init() {
     var a = document.createElement('A');
     a.href = 'javascript:void(0)';
     a.textContent = listVideos[i];//.split('.')[0];
-    a.dataset.src = src;
+    a.dataset.src =  'videos/' + src;
     a.className = 'videolink';
     videoexamples.appendChild(a);
   }
@@ -262,8 +262,8 @@ async function init() {
   for (var i=0;i<listImages.length;i++)
   {
   	var img = document.createElement('img');
-  	img.src = listImages[i];
-		img.className = 'example';
+  	img.src = 'images/' + listImages[i];
+	img.className = 'example';
   	img.title = listImages[i];
   	imageexamples.appendChild(img);
   }
